@@ -1,0 +1,112 @@
+.mo_slider h1, .mo_slider a, .mo_slider a:visited, .mo_slider a:hover, .mo_slider p{color: #ffffff;}
+.mo_slider h1{padding-bottom: 0; margin-bottom: 0; font-size: 24px;}
+.mo_slider .bx-controls-direction{display: none;}
+.mo_slider .column,
+.mo_slider .columns {
+  width: 100%;
+  float: left;
+  box-sizing: border-box; }
+
+/* For devices larger than 400px */
+@media (min-width: 400px) {
+  .mo_slider .container {
+    width: 85%;
+    padding: 0; }
+}
+
+/* For devices larger than 550px */
+@media (min-width: 550px) {
+  .mo_slider .container {
+    width: 80%; }
+  .mo_slider .column,
+  .mo_slider .columns {
+    margin-left: 4%; }
+  .mo_slider .column:first-child,
+  .mo_slider .columns:first-child {
+    margin-left: 0; }
+
+  .mo_slider .one.column,
+  .mo_slider .one.columns                    { width: 4.66666666667%; }
+  .mo_slider .two.columns                    { width: 13.3333333333%; }
+  .mo_slider .three.columns                  { width: 22%;            }
+  .mo_slider .four.columns                   { width: 30.6666666667%; }
+  .mo_slider .five.columns                   { width: 39.3333333333%; }
+  .mo_slider .six.columns                    { width: 48%;            }
+  .mo_slider .seven.columns                  { width: 56.6666666667%; }
+  .mo_slider .eight.columns                  { width: 65.3333333333%; }
+  .mo_slider .nine.columns                   { width: 74.0%;          }
+  .mo_slider .ten.columns                    { width: 82.6666666667%; }
+  .mo_slider .eleven.columns                 { width: 91.3333333333%; }
+  .mo_slider .twelve.columns                 { width: 100%; margin-left: 0; }
+
+  .mo_slider .one-third               { width: 30.6666666667%; }
+  .mo_slider .two-thirds              { width: 65.3333333333%; }
+
+  .mo_slider .one-half                { width: 48%; float: left;}
+
+  /* Offsets */
+  .mo_slider .offset-by-one.column,
+  .mo_slider .offset-by-one.columns          { margin-left: 8.66666666667%; }
+  .mo_slider .offset-by-two.column,
+  .mo_slider .offset-by-two.columns          { margin-left: 17.3333333333%; }
+  .mo_slider .offset-by-three.column,
+  .mo_slider .offset-by-three.columns        { margin-left: 26%;            }
+  .mo_slider .offset-by-four.column,
+  .mo_slider .offset-by-four.columns         { margin-left: 34.6666666667%; }
+  .mo_slider .offset-by-five.column,
+  .mo_slider .offset-by-five.columns         { margin-left: 43.3333333333%; }
+  .mo_slider .offset-by-six.column,
+  .mo_slider .offset-by-six.columns          { margin-left: 52%;            }
+  .mo_slider .offset-by-seven.column,
+  .mo_slider .offset-by-seven.columns        { margin-left: 60.6666666667%; }
+  .mo_slider .offset-by-eight.column,
+  .mo_slider .offset-by-eight.columns        { margin-left: 69.3333333333%; }
+  .mo_slider .offset-by-nine.column,
+  .mo_slider .offset-by-nine.columns         { margin-left: 78.0%;          }
+  .mo_slider .offset-by-ten.column,
+  .mo_slider .offset-by-ten.columns          { margin-left: 86.6666666667%; }
+  .mo_slider .offset-by-eleven.column,
+  .mo_slider .offset-by-eleven.columns       { margin-left: 95.3333333333%; }
+
+  .mo_slider .offset-by-one-third.column,
+  .mo_slider .offset-by-one-third.columns    { margin-left: 34.6666666667%; }
+  .mo_slider .offset-by-two-thirds.column,
+  .mo_slider .offset-by-two-thirds.columns   { margin-left: 69.3333333333%; }
+
+  .mo_slider .offset-by-one-half.column,
+  .mo_slider .offset-by-one-half.columns     { margin-left: 52%; }
+
+}
+
+/* Clearing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Self Clearing Goodness */
+.mo_slider .container:after,
+.mo_slider .row:after,
+.mo_slider .u-cf {
+  content: "";
+  display: table;
+  clear: both; }
+  
+.mo_slider .bx-wrapper .bx-viewport{
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+/* SiteOrigin Fix */
+.mo_slider .bx-wrapper .bx-viewport .bx-controls.bx-has-pager.bx-has-controls-direction{display: none;}
+.mo-slider-image{
+	position: relative; 
+	z-index: 1;
+}
+.mo-slider-content{
+	position: absolute; 
+	bottom: 0; 
+	left: 0; 
+	z-index: 2000; 
+	background: rgba(0,0,0,.7); 
+	padding: 0 1rem 1rem 1rem; 
+	width: 100%;
+}
